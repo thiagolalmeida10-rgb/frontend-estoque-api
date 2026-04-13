@@ -1,0 +1,84 @@
+
+/* Fundo da página */
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #111827; /* cinza escuro */
+    margin-left: 10%;
+}
+
+/* Card */
+.card {
+    width: 100%;
+    max-width: 400px;
+    background-color: #2d3644;
+    padding: 24px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.5);
+}
+
+/* Logo */
+.logo {
+    display: block;
+    margin: 0 auto;
+    margin-top: 5px;
+    position: relative;
+    top: -10px;
+}
+
+/* Título */
+.title {
+    color: white;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* Formulário */
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+/* Inputs */
+.input {
+    padding: 12px;
+    border-radius: 8px;
+    border: none;
+    background-color: #374151;
+    color: white;
+    outline: none;
+    font-size: 14px;
+}
+
+/* Placeholder */
+.input::placeholder {
+    color: #9ca3af;
+}
+
+/* Foco */
+.input:focus {
+    border: 2px solid #3b82f6;
+}
+
+/* Botão */
+.button {
+    margin-top: 8px;
+    padding: 12px;
+    border-radius: 8px;
+    border: none;
+    background-color: #2563eb;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+/* Hover */
+.button:hover {
+    background-color: #1d4ed8;
+}
