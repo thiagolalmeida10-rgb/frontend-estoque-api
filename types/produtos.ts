@@ -1,4 +1,4 @@
-export type  produtoDTO = {
+export type  ProdutoDTO = {
     nome: string
     descricao: string
     preco: number
